@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="XC5-gG-HaC">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5zM-BW-4oh">
+                                <rect key="frame" x="13" y="77" width="110" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="Ia5-gf-198"/>
+                                    <constraint firstAttribute="height" constant="30" id="OgV-ec-yRE"/>
+                                </constraints>
+                                <state key="normal" title="淡化效果"/>
+                                <connections>
+                                    <action selector="pushAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bu7-yu-SJz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vYg-ha-tdq">
+                                <rect key="frame" x="13" y="123" width="110" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="6Qp-Ms-F4e"/>
+                                    <constraint firstAttribute="width" constant="110" id="7i4-hE-jlo"/>
+                                </constraints>
+                                <state key="normal" title="Push效果"/>
+                                <connections>
+                                    <action selector="pushAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dww-xP-6gT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jv0-1t-zjg">
+                                <rect key="frame" x="13" y="166" width="110" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="lp7-bA-d1F"/>
+                                    <constraint firstAttribute="height" constant="30" id="s49-6L-wiW"/>
+                                </constraints>
+                                <state key="normal" title="揭开效果"/>
+                                <connections>
+                                    <action selector="pushAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jm1-rz-CaK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tgq-WN-uyY">
+                                <rect key="frame" x="13" y="212" width="110" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="HVd-EM-7Ma"/>
+                                    <constraint firstAttribute="height" constant="30" id="XF5-qt-fuo"/>
+                                </constraints>
+                                <state key="normal" title="覆盖效果"/>
+                                <connections>
+                                    <action selector="pushAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jUm-nv-rQ3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cs8-Ih-zsq">
+                                <rect key="frame" x="13" y="250" width="110" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="54V-KD-DeK"/>
+                                    <constraint firstAttribute="height" constant="30" id="kGh-mu-uLh"/>
+                                </constraints>
+                                <state key="normal" title="3D立方效果"/>
+                                <connections>
+                                    <action selector="pushAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b9H-Z9-hQK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fZA-ZU-Qmy">
+                                <rect key="frame" x="13" y="296" width="110" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="bB0-Um-JxI"/>
+                                    <constraint firstAttribute="width" constant="110" id="roj-0z-hHj"/>
+                                </constraints>
+                                <state key="normal" title="吮吸效果"/>
+                                <connections>
+                                    <action selector="pushAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ien-VU-Seq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3jz-Fq-ZKa">
+                                <rect key="frame" x="13" y="339" width="110" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="HHU-Eh-sI4"/>
+                                    <constraint firstAttribute="height" constant="30" id="Ylk-dB-79A"/>
+                                </constraints>
+                                <state key="normal" title="翻转效果"/>
+                                <connections>
+                                    <action selector="pushAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LS3-ZO-N7Q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Fd-sO-Ltv">
+                                <rect key="frame" x="13" y="385" width="110" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Cch-yU-ozb"/>
+                                    <constraint firstAttribute="width" constant="110" id="adC-Vh-jin"/>
+                                </constraints>
+                                <state key="normal" title="波纹效果"/>
+                                <connections>
+                                    <action selector="pushAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DUa-m4-cFz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="crg-Ka-koM">
+                                <rect key="frame" x="197" y="77" width="110" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="Y4x-Kf-i6Z"/>
+                                    <constraint firstAttribute="height" constant="30" id="pJM-PB-Jbg"/>
+                                </constraints>
+                                <state key="normal" title="翻页效果"/>
+                                <connections>
+                                    <action selector="pushAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h7v-CN-rV8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ksm-Nc-JHp">
+                                <rect key="frame" x="197" y="123" width="110" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="eGF-VB-9Pz"/>
+                                    <constraint firstAttribute="width" constant="110" id="sdP-Hd-APX"/>
+                                </constraints>
+                                <state key="normal" title="反翻页效果"/>
+                                <connections>
+                                    <action selector="pushAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0y6-vU-uaD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="11" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XPG-WX-0Qo">
+                                <rect key="frame" x="197" y="166" width="110" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="Htc-W0-7WI"/>
+                                    <constraint firstAttribute="height" constant="30" id="ekO-TR-5DB"/>
+                                </constraints>
+                                <state key="normal" title="开镜头效果"/>
+                                <connections>
+                                    <action selector="pushAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iCB-VP-qPC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="12" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pau-Cn-VSM">
+                                <rect key="frame" x="197" y="212" width="110" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="Fow-gh-AES"/>
+                                    <constraint firstAttribute="height" constant="30" id="b6y-RM-onD"/>
+                                </constraints>
+                                <state key="normal" title="关镜头效果"/>
+                                <connections>
+                                    <action selector="pushAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XRJ-wz-cdd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="14" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nN0-Ac-6yP">
+                                <rect key="frame" x="197" y="296" width="110" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="T4R-8U-Jf3"/>
+                                    <constraint firstAttribute="width" constant="110" id="Yae-2j-hGJ"/>
+                                </constraints>
+                                <state key="normal" title="上翻页效果"/>
+                                <connections>
+                                    <action selector="pushAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3k4-k1-hhY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="15" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQJ-PM-IYd">
+                                <rect key="frame" x="197" y="339" width="110" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="L0r-wd-u5O"/>
+                                    <constraint firstAttribute="height" constant="30" id="ttk-p0-hXk"/>
+                                </constraints>
+                                <state key="normal" title="左翻页效果"/>
+                                <connections>
+                                    <action selector="pushAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gnw-Ka-jyZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="16" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qGI-in-Osy">
+                                <rect key="frame" x="197" y="385" width="110" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="4qF-On-hGB"/>
+                                    <constraint firstAttribute="width" constant="110" id="okS-Au-Rjo"/>
+                                </constraints>
+                                <state key="normal" title="右翻页效果"/>
+                                <connections>
+                                    <action selector="pushAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3gZ-bq-mN0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="13" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8VU-7W-mXw">
+                                <rect key="frame" x="197" y="250" width="110" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="76u-kM-ZiV"/>
+                                    <constraint firstAttribute="width" constant="110" id="82B-g3-NpG"/>
+                                </constraints>
+                                <state key="normal" title="下翻页效果"/>
+                                <connections>
+                                    <action selector="pushAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uYf-4O-qsr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5zM-BW-4oh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="57" id="0v1-Dv-c8K"/>
+                            <constraint firstItem="8VU-7W-mXw" firstAttribute="top" secondItem="pau-Cn-VSM" secondAttribute="bottom" constant="8" id="3sD-KT-Y8F"/>
+                            <constraint firstItem="2Fd-sO-Ltv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-7" id="5Jd-Ck-D2T"/>
+                            <constraint firstItem="bQJ-PM-IYd" firstAttribute="top" secondItem="nN0-Ac-6yP" secondAttribute="bottom" constant="13" id="6b5-Cy-y4B"/>
+                            <constraint firstItem="cs8-Ih-zsq" firstAttribute="top" secondItem="Tgq-WN-uyY" secondAttribute="bottom" constant="8" id="8Rd-EO-sAa"/>
+                            <constraint firstItem="Tgq-WN-uyY" firstAttribute="top" secondItem="jv0-1t-zjg" secondAttribute="bottom" constant="16" id="99Z-xS-1ZB"/>
+                            <constraint firstItem="jv0-1t-zjg" firstAttribute="top" secondItem="vYg-ha-tdq" secondAttribute="bottom" constant="13" id="CBX-sy-u6i"/>
+                            <constraint firstItem="vYg-ha-tdq" firstAttribute="top" secondItem="5zM-BW-4oh" secondAttribute="bottom" constant="16" id="CBj-WZ-iXz"/>
+                            <constraint firstItem="fZA-ZU-Qmy" firstAttribute="top" secondItem="cs8-Ih-zsq" secondAttribute="bottom" constant="16" id="F1j-il-O7R"/>
+                            <constraint firstItem="XPG-WX-0Qo" firstAttribute="top" secondItem="Ksm-Nc-JHp" secondAttribute="bottom" constant="13" id="Iyw-A6-bQn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bQJ-PM-IYd" secondAttribute="trailing" constant="-7" id="Mze-D6-qNt"/>
+                            <constraint firstItem="qGI-in-Osy" firstAttribute="top" secondItem="bQJ-PM-IYd" secondAttribute="bottom" constant="16" id="N6H-JZ-fQq"/>
+                            <constraint firstItem="Tgq-WN-uyY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-7" id="Q5b-Ja-YJE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ksm-Nc-JHp" secondAttribute="trailing" constant="-7" id="ZSl-ET-bQe"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="XPG-WX-0Qo" secondAttribute="trailing" constant="-7" id="cJg-yK-KzB"/>
+                            <constraint firstItem="2Fd-sO-Ltv" firstAttribute="top" secondItem="3jz-Fq-ZKa" secondAttribute="bottom" constant="16" id="dAf-zE-eqK"/>
+                            <constraint firstItem="5zM-BW-4oh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-7" id="dQ9-Ru-LGv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nN0-Ac-6yP" secondAttribute="trailing" constant="-7" id="e3y-4t-jIs"/>
+                            <constraint firstItem="3jz-Fq-ZKa" firstAttribute="top" secondItem="fZA-ZU-Qmy" secondAttribute="bottom" constant="13" id="eVd-qt-Rjj"/>
+                            <constraint firstItem="cs8-Ih-zsq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-7" id="gut-yu-Cfs"/>
+                            <constraint firstItem="jv0-1t-zjg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-7" id="hKy-it-Gea"/>
+                            <constraint firstItem="Ksm-Nc-JHp" firstAttribute="top" secondItem="crg-Ka-koM" secondAttribute="bottom" constant="16" id="inr-v4-jE4"/>
+                            <constraint firstItem="nN0-Ac-6yP" firstAttribute="top" secondItem="8VU-7W-mXw" secondAttribute="bottom" constant="16" id="jM5-6t-ysh"/>
+                            <constraint firstItem="3jz-Fq-ZKa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-7" id="kfa-AM-7ED"/>
+                            <constraint firstItem="crg-Ka-koM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="57" id="qbU-kQ-sh4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qGI-in-Osy" secondAttribute="trailing" constant="-7" id="rt9-k6-35p"/>
+                            <constraint firstItem="fZA-ZU-Qmy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-7" id="txs-Um-pEc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pau-Cn-VSM" secondAttribute="trailing" constant="-7" id="w5b-kq-hoq"/>
+                            <constraint firstItem="pau-Cn-VSM" firstAttribute="top" secondItem="XPG-WX-0Qo" secondAttribute="bottom" constant="16" id="x94-35-yQ5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8VU-7W-mXw" secondAttribute="trailing" constant="-7" id="yrg-WW-P8p"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="crg-Ka-koM" secondAttribute="trailing" constant="-7" id="zR0-I3-Llt"/>
+                            <constraint firstItem="vYg-ha-tdq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-7" id="zvC-eB-H89"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="TsC-VZ-Vus"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1100" y="274"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="CQJ-wI-g0e">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XC5-gG-HaC" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="POR-3w-gn5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="qCA-xL-Wi8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yqy-s9-mGV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="793" y="268"/>
+        </scene>
+    </scenes>
+</document>
